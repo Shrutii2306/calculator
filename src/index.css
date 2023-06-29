@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Inter:wght@900&display=swap');
+
+body {
+  margin: 0;
+  font-family: cabin sketch;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  
+  width: 100%;
+ 
+  background: #ECECF1;
+  background-image: linear-gradient(rgba(186, 193, 186, 0.7) .1em, transparent .1em), linear-gradient(90deg, rgba(201, 206, 201, 0.7) .1em, transparent .1em);
+  background-size: 1.5em 1.5em;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

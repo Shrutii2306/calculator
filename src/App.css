@@ -1,0 +1,189 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Inter:wght@900&display=swap');
+
+
+
+.App {
+  text-align: center;
+  font-family: cabin sketch;
+}
+
+.title{
+
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
+.container{
+
+  align-items: center;
+  display: flex;
+  align-self: center;
+  align-content: center;
+  flex-direction: column;
+  max-width: 75%;
+  margin: 1.5rem 15%;
+  
+}
+
+.calculator-container{
+
+  height: 28rem;
+  width: 25rem;
+  
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.4rem;
+
+  border-top-left-radius: 200px 15px;
+  border-top-right-radius: 13px 150px;
+  border-bottom-right-radius: 150px 15px;
+  border-bottom-left-radius:15px 200px;
+  word-wrap: break-word;
+  border: solid 4px #222121;
+  background-color: #e9e9ef;
+}
+
+input{
+  font-family: cabin sketch;
+  font-size: 2.2rem;
+  border-top-left-radius: 200px 15px;
+  border-top-right-radius: 13px 150px;
+  border-bottom-right-radius: 150px 15px;
+  border-bottom-left-radius:15px 200px;
+}
+
+button{
+  font-family: cabin sketch;
+  font-size: 2rem;
+  border-top-left-radius: 200px 4px;
+  border-top-right-radius: 10px 150px;
+  border-bottom-right-radius: 150px 10px;
+  border-bottom-left-radius:25px 200px;
+}
+
+
+.row-1{
+
+  margin-top: 2.5rem ;
+  margin-bottom: 1rem;
+  padding: 0 1%;
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  width: 23rem;
+  float: left;
+}
+
+.row-1 input{
+
+  background: transparent;
+  height: 2.5rem;
+  width: 17rem;
+  float: left;
+  border: 3px solid;
+  align-self: flex-start;
+}
+
+.row-1 button{
+  background: transparent;
+  height: 2.8rem;
+  width: 2.8rem;
+  float: right;
+  align-self: flex-end;
+  margin-left: 2.4rem;
+  background-color: rgb(240, 82, 82);
+}
+
+.row-1 button:hover{
+
+  background-color: rgb(239, 38, 38);
+}
+
+.row-2{
+
+  margin-top: 1rem ;
+  padding: 0 1%;
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  margin-bottom: 0.8rem;
+  width: 23rem;
+  float: left;
+}
+
+.row-3{
+
+  margin-top: 1rem ;
+  padding: 0 1%;
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  margin-bottom: 0.8rem;
+  width: 23rem;
+  float: left;
+}
+
+.row-4{
+
+  margin-top: 1rem ;
+  padding: 0 1%;
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  margin-bottom: 0.8rem;
+  width: 23rem;
+  float: left;
+}
+
+.row-5{
+
+  margin-top: 1rem ;
+  padding: 0 1%;
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  margin-bottom: 0.8rem;
+  width: 23rem;
+  float: left;
+}
+
+.keys button{
+
+  height: 2.8rem;
+  width : 5rem;
+  margin-right: 1.3rem;
+
+}
+
+.keys button:hover{
+
+  background-color: darkgray;
+}
+
+.equals{
+
+  background-color: rgb(139, 139, 240);
+}
+
+.equals:hover{
+  background-color: rgb(91, 91, 238) !important;
+}
+.operation{
+
+  height: 2.8rem;
+  width: 2.8rem;
+  margin-left: 1rem;
+}
+
+.operation:hover{
+   
+  background-color: rgb(139, 139, 240);
+}
+
+
+
